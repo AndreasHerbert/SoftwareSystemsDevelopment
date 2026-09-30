@@ -22,7 +22,7 @@ public class Rectangle extends Shape{
         return height;
     }
 
-    public int getArea(){
+    public double getArea(){
         return width * height;
     }
 }

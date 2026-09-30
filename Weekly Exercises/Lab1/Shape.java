@@ -9,7 +9,7 @@ abstract class Shape {
         this.sides = sides;
     }
 
-    abstract public int getArea();
+    abstract public double getArea();
 
     Shape(int sides){
         this.sides = sides;
